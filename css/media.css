@@ -1,0 +1,319 @@
+/* LARGE DEVICE RESPONSIVE START*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.banner-icon {
+	padding: 13px 0;
+}
+.about-right h3 {
+	font-size: 18px;
+}
+.about-right span {
+	font-size: 18px;
+}
+.about-left h3 {
+	font-size: 18px;
+}
+.about-left span {
+	font-size: 18px;
+}
+.about-txt {
+	padding-top: 45px;
+}
+.about-left::before {
+	right: -1%;
+}
+.about-left::after {
+	right: 1px;
+	height: 178px;
+}
+.circle::before {
+	right: -135%;
+    top: 173px
+}
+.about-edu h3 {
+	font-size: 18px;
+}
+.service-left h3 {
+    padding-left: 10px
+}
+.fact-itm h4 {
+	font-size: 16px;
+}
+.fact-itm h3 {
+	font-size: 24px;
+}
+.cont-add {
+    padding-left: 0px; 
+}
+.contact-right i {
+	border-right: none
+}
+.contact-right p {
+	padding-top: 10px;
+}
+.blog-date h3 {
+	font-size: 14px;
+}
+.blog-date h5 {
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+	font-size: 15px;
+	text-transform: capitalize;
+}
+.blog-txt h3 {
+	font-size: 18px;
+	padding-top: 10px;
+	line-height: 28px;
+}
+.blog-txt p {
+	font-size: 14px;
+	padding-top: 10px;
+	line-height: 24px;
+}
+.blog-border {
+	padding-bottom: 15px;
+}
+}
+/* LARGE DEVICE RESPONSIVE END*/
+
+
+
+/* MEDIUM DEVICE RESPONSIVE START*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+.banner-left {
+	padding-top: 100px;
+}
+.banner-left h1 {
+	font-size: 34px;
+}
+.navbar i{
+    font-size: 24px;
+    color: #ffffff;
+}
+.navbar-nav{
+    text-align: center;
+    background: #444444
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.banner-icon i {
+	padding: 0;
+    margin-left: 30px;
+    display: inline-block
+}
+.banner-icon {
+	padding: 30px 0;
+}
+.circle::before {
+	right: -165%;
+}
+.about-left::after {
+	right: 17px;
+}
+.service-left h2 {
+	display: block;
+}
+.service-left h3 {
+	padding-top: 5px;
+}
+.test-itm{
+    margin-bottom: 60px;
+}
+.contact-right{
+    padding-top: 70px;
+}
+}
+
+/* MEDIUM DEVICE RESPONSIVE END*/
+
+
+
+/* SMALL DEVICE RESPONSIVE START*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+.navbar i{
+    font-size: 24px;
+    color: #ffffff;
+}
+.navbar-nav{
+    text-align: center;
+    background: #444444
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.banner-left {
+	padding-top: 70px;
+}
+.banner-icon {
+	padding: 30px 0;
+}
+.banner-icon i {
+	padding: 0;
+    margin-left: 30px;
+    display: inline-block
+}
+#partner::after {
+	width: 68%;
+}
+.about-left::after {
+	right: -10px;
+}
+.about-left::before {
+	right: -14px;
+}
+.circle::before {
+	right: -150px;
+}
+.padding-left{
+    padding: 0!important
+}
+.about-txt2 {
+	padding-top: 20px;
+}
+#service {
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+.test-itm{
+    margin-bottom: 60px;
+}
+.fact-itm {
+    border-right: 0; 
+	padding-right: 25px;
+	padding-bottom: 24px;
+}
+.contact-right{
+    padding-top: 70px;
+}
+#partner::after {
+	width: 60%;
+}
+}
+/* SMALL DEVICE RESPONSIVE END*/
+
+
+
+/* EXTRA SMALL DEVICE RESPONSIVE START */
+@media (max-width: 575.98px) {
+.navbar i{
+    font-size: 24px;
+    color: #ffffff;
+}
+.navbar-nav{
+    text-align: center;
+    background: #444444
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.banner-left {
+	padding-top: 50px;
+}
+.banner-left h6 {
+	font-size: 18px;
+}
+.banner-icon {
+	padding: 30px 0;
+}
+.banner-icon i {
+	padding: 0;
+    margin-right: 15px;
+    display: inline-block
+}
+.part-left{
+    display: none;
+}
+#partner::after {
+	width: 70%;
+}
+.about-img {
+	box-shadow: -8px -9px 0px #ffb400;
+}
+.overlay i {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+    font-size: 24px
+}
+.about-left::after {
+	position: static;
+}
+.about-left::before {
+	position: static;
+    border: none;
+}
+.circle::before {
+	position: static;
+    border: none;
+}
+.about-txt2 {
+    padding-top: 0px; 
+}
+.about-edu::before {
+	position: static;
+	border: none;
+}
+.about-edu::after {
+	position: static;
+	border: none;
+}
+.about-edu {
+	border-left: none;
+    padding-left: 0px; 
+}
+.service-left h2 {
+	display: block;
+}
+.port-img2 {
+	margin-bottom: 15px;
+}
+#test {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.test-itm{
+    margin-bottom: 60px;
+}
+.test-star2{
+    padding-left: 20px
+}
+.fact-itm {
+    border-right: none; 
+	padding-right: 0px;
+}
+.fact-itm{
+    margin-bottom: 25px
+}
+.fact-itm h3 {
+	letter-spacing: 2px;
+}
+.blog-main .slick-dots {
+	top: 105%;
+}
+.cont-btn button {
+	margin-bottom: 60px;
+}
+.contact-right i {
+	padding-right: 18px;
+}
+.cont-icon2 i{
+    padding-right: 20px
+}
+.cont-icon3 i{
+    padding-right: 25px
+}
+.foot-txt h3 {
+	font-size: 16px;
+}
+#contact {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+}
+/* EXTRA SMALL DEVICE RESPONSIVE END */
